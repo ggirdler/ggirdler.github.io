@@ -1,0 +1,18 @@
+a {
+  color: red;
+  font-family: avenir;
+}
+a:hover {
+  color: red;
+}
+#header { this is for accessing an id
+
+}
+
+.class { this is for accessing a class (only changes stuff in a certain class)
+
+}
+
+body {
+  background-color: #1e90ff;
+}
