@@ -1,18 +1,20 @@
-a {
-  color: red;
-  font-family: avenir;
-}
-a:hover {
-  color: red;
-}
-#header { this is for accessing an id
-
-}
-
-.class { this is for accessing a class (only changes stuff in a certain class)
-
-}
-
 body {
-  background-color: #1e90ff;
+  overflow-x: hidden;
+}
+.whole-screen {
+  background-color: coral;
+}
+.top-half {
+  height: 50%;
+  width: 75%;
+  background-color: white;
+}
+.bottom-half {
+  height: 50%;
+  background-color: black;
+}
+i.fa {
+  font-size: 56px;
+  color: coral;
+  margin-left: 50%;
 }
