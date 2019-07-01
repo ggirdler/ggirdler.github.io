@@ -24,3 +24,20 @@ body {
   margin-top: 130px;
   right: 30px;
 }
+html,
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 3em 2em;
+  font-size: 12px;
+
+}
+
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
