@@ -1,20 +1,26 @@
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #C1C8E4;
 }
-.whole-screen {
-  background-color: coral;
+.top-header {
+  position: absolute;
+  top: 0px;
 }
-.top-half {
-  height: 50%;
-  width: 75%;
-  background-color: white;
+.fa-glide-g:before {
+  position: fixed;
+  top: 2px;
+  left: 5px;
+  font-size: 68px;
+  color: #8860D0;
 }
-.bottom-half {
-  height: 50%;
-  background-color: black;
-}
-i.fa {
-  font-size: 56px;
-  color: coral;
-  margin-left: 50%;
+#profile-pic {
+  position: fixed;
+  height: 500px;
+  width: 500px;
+  border-radius: 112px;
+  margin-top: 130px;
+  right: 30px;
 }
